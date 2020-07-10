@@ -36,6 +36,7 @@ public class WebSocketClient {
     var channel: Channel? = nil
     public var maxFrameSize: Int
     var enableSSL: Bool = false
+    var httpHeaders: [String:String]
 
     ///  This semaphore signals when the client successfully recieves the Connection upgrade response from remote server
     ///  Ensures that webSocket frames are sent on channel only after the connection is successfully upgraded to WebSocket Connection
@@ -66,11 +67,12 @@ public class WebSocketClient {
     ///                      Default value is `14`.
     ///     - compressionConfig : compression configuration
 
-    public init?(host: String, port: Int, uri: String, requestKey: String,
+    public init?(host: String, port: Int, headers: [String:String] = [:], uri: String, requestKey: String,
                  compressionConfig: WebSocketCompressionConfiguration? = nil, maxFrameSize: Int = 14, enableSSL: Bool = false, onOpen: @escaping (Channel?) -> Void = { _ in }) {
         self.requestKey = requestKey
         self.host = host
         self.port = port
+        self.httpHeaders = headers
         self.uri = uri
         self.onOpenCallback = onOpen
         self.compressionConfig = compressionConfig
@@ -92,9 +94,10 @@ public class WebSocketClient {
     ///     - url : The "Request-URl" of the GET method, it is used to identify the endpoint of the WebSocket connection
     ///     - compressionConfig : compression configuration
 
-    public init?(_ url: String, config: WebSocketCompressionConfiguration? = nil) {
+    public init?(_ url: String, headers: [String:String] = [:], config: WebSocketCompressionConfiguration? = nil) {
         self.requestKey = "test"
         let rawUrl = URL(string: url)
+        self.httpHeaders = headers
         self.host = rawUrl?.host ?? "localhost"
         self.port = rawUrl?.port ?? 8080
         self.uri =  rawUrl?.path ?? "/"
@@ -588,6 +591,10 @@ class HTTPClientHandler: ChannelInboundHandler, RemovableChannelHandler {
     func channelActive(context: ChannelHandlerContext) {
         var request = HTTPRequestHead(version: HTTPVersion.http11, method: .GET, uri: client.uri)
         var headers = HTTPHeaders()
+        for (key,value) in client.httpHeaders
+        {
+            headers.add(name: key, value: value)
+        }
         headers.add(name: "Host", value: "\(client.host):\(client.port)")
         if client.compressionConfig != nil {
             let value = buildExtensionHeader()
