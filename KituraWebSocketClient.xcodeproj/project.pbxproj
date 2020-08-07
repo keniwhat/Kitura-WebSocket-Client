@@ -20,12 +20,57 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		BEF8141F24DD6D3F0077B2F8 /* KituraWebSocketClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "KituraWebSocketClient::KituraWebSocketClient::Product" /* KituraWebSocketClient.framework */; };
+		BEF8143624DD6D400077B2F8 /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142024DD6D3F0077B2F8 /* NIOConcurrencyHelpers.framework */; };
+		BEF8143724DD6D400077B2F8 /* NIOFoundationCompat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142124DD6D3F0077B2F8 /* NIOFoundationCompat.framework */; };
+		BEF8143824DD6D400077B2F8 /* NIOTLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142224DD6D3F0077B2F8 /* NIOTLS.framework */; };
+		BEF8143924DD6D400077B2F8 /* CLinuxHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142324DD6D3F0077B2F8 /* CLinuxHelpers.framework */; };
+		BEF8143A24DD6D410077B2F8 /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142424DD6D3F0077B2F8 /* Logging.framework */; };
+		BEF8143B24DD6D410077B2F8 /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142524DD6D3F0077B2F8 /* CNIOAtomics.framework */; };
+		BEF8143C24DD6D410077B2F8 /* KituraWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142624DD6D3F0077B2F8 /* KituraWebSocket.framework */; };
+		BEF8143D24DD6D410077B2F8 /* LoggerAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142724DD6D3F0077B2F8 /* LoggerAPI.framework */; };
+		BEF8143E24DD6D410077B2F8 /* NIOWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142824DD6D400077B2F8 /* NIOWebSocket.framework */; };
+		BEF8143F24DD6D410077B2F8 /* SSLService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142924DD6D400077B2F8 /* SSLService.framework */; };
+		BEF8144024DD6D410077B2F8 /* CNIOHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142A24DD6D400077B2F8 /* CNIOHTTPParser.framework */; };
+		BEF8144124DD6D410077B2F8 /* NIOExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142B24DD6D400077B2F8 /* NIOExtras.framework */; };
+		BEF8144224DD6D410077B2F8 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142C24DD6D400077B2F8 /* CNIOSHA1.framework */; };
+		BEF8144324DD6D410077B2F8 /* CNIOBoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142D24DD6D400077B2F8 /* CNIOBoringSSL.framework */; };
+		BEF8144424DD6D410077B2F8 /* KituraNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142E24DD6D400077B2F8 /* KituraNet.framework */; };
+		BEF8144524DD6D410077B2F8 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8142F24DD6D400077B2F8 /* NIO.framework */; };
+		BEF8144624DD6D410077B2F8 /* NIOSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143024DD6D400077B2F8 /* NIOSSL.framework */; };
+		BEF8144724DD6D410077B2F8 /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143124DD6D400077B2F8 /* CNIODarwin.framework */; };
+		BEF8144824DD6D410077B2F8 /* CNIOBoringSSLShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143224DD6D400077B2F8 /* CNIOBoringSSLShims.framework */; };
+		BEF8144924DD6D410077B2F8 /* CNIOLinux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143324DD6D400077B2F8 /* CNIOLinux.framework */; };
+		BEF8144A24DD6D410077B2F8 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143424DD6D400077B2F8 /* Socket.framework */; };
+		BEF8144B24DD6D410077B2F8 /* NIOHTTP1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF8143524DD6D400077B2F8 /* NIOHTTP1.framework */; };
 		OBJ_1615 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* WebSocketClient.swift */; };
 		OBJ_1668 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		"KituraWebSocketClient::KituraWebSocketClient::Product" /* KituraWebSocketClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KituraWebSocketClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF8142024DD6D3F0077B2F8 /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOConcurrencyHelpers.framework; path = Build/Products/Debug/NIOConcurrencyHelpers.framework; sourceTree = "<group>"; };
+		BEF8142124DD6D3F0077B2F8 /* NIOFoundationCompat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOFoundationCompat.framework; path = Build/Products/Debug/NIOFoundationCompat.framework; sourceTree = "<group>"; };
+		BEF8142224DD6D3F0077B2F8 /* NIOTLS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOTLS.framework; path = Build/Products/Debug/NIOTLS.framework; sourceTree = "<group>"; };
+		BEF8142324DD6D3F0077B2F8 /* CLinuxHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLinuxHelpers.framework; path = Build/Products/Debug/CLinuxHelpers.framework; sourceTree = "<group>"; };
+		BEF8142424DD6D3F0077B2F8 /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logging.framework; path = Build/Products/Debug/Logging.framework; sourceTree = "<group>"; };
+		BEF8142524DD6D3F0077B2F8 /* CNIOAtomics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOAtomics.framework; path = Build/Products/Debug/CNIOAtomics.framework; sourceTree = "<group>"; };
+		BEF8142624DD6D3F0077B2F8 /* KituraWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KituraWebSocket.framework; path = Build/Products/Debug/KituraWebSocket.framework; sourceTree = "<group>"; };
+		BEF8142724DD6D3F0077B2F8 /* LoggerAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoggerAPI.framework; path = Build/Products/Debug/LoggerAPI.framework; sourceTree = "<group>"; };
+		BEF8142824DD6D400077B2F8 /* NIOWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOWebSocket.framework; path = Build/Products/Debug/NIOWebSocket.framework; sourceTree = "<group>"; };
+		BEF8142924DD6D400077B2F8 /* SSLService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSLService.framework; path = Build/Products/Debug/SSLService.framework; sourceTree = "<group>"; };
+		BEF8142A24DD6D400077B2F8 /* CNIOHTTPParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOHTTPParser.framework; path = Build/Products/Debug/CNIOHTTPParser.framework; sourceTree = "<group>"; };
+		BEF8142B24DD6D400077B2F8 /* NIOExtras.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOExtras.framework; path = Build/Products/Debug/NIOExtras.framework; sourceTree = "<group>"; };
+		BEF8142C24DD6D400077B2F8 /* CNIOSHA1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOSHA1.framework; path = Build/Products/Debug/CNIOSHA1.framework; sourceTree = "<group>"; };
+		BEF8142D24DD6D400077B2F8 /* CNIOBoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOBoringSSL.framework; path = Build/Products/Debug/CNIOBoringSSL.framework; sourceTree = "<group>"; };
+		BEF8142E24DD6D400077B2F8 /* KituraNet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KituraNet.framework; path = Build/Products/Debug/KituraNet.framework; sourceTree = "<group>"; };
+		BEF8142F24DD6D400077B2F8 /* NIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIO.framework; path = Build/Products/Debug/NIO.framework; sourceTree = "<group>"; };
+		BEF8143024DD6D400077B2F8 /* NIOSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOSSL.framework; path = Build/Products/Debug/NIOSSL.framework; sourceTree = "<group>"; };
+		BEF8143124DD6D400077B2F8 /* CNIODarwin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIODarwin.framework; path = Build/Products/Debug/CNIODarwin.framework; sourceTree = "<group>"; };
+		BEF8143224DD6D400077B2F8 /* CNIOBoringSSLShims.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOBoringSSLShims.framework; path = Build/Products/Debug/CNIOBoringSSLShims.framework; sourceTree = "<group>"; };
+		BEF8143324DD6D400077B2F8 /* CNIOLinux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CNIOLinux.framework; path = Build/Products/Debug/CNIOLinux.framework; sourceTree = "<group>"; };
+		BEF8143424DD6D400077B2F8 /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = Build/Products/Debug/Socket.framework; sourceTree = "<group>"; };
+		BEF8143524DD6D400077B2F8 /* NIOHTTP1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIOHTTP1.framework; path = Build/Products/Debug/NIOHTTP1.framework; sourceTree = "<group>"; };
+		"KituraWebSocketClient::KituraWebSocketClient::Product" /* KituraWebSocketClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KituraWebSocketClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* SocketProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProtocols.swift; sourceTree = "<group>"; };
 		OBJ_101 /* SocketUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
 		OBJ_102 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ken/Projects/atmosphere/AMP/Kitura-WebSocket-Client/.build/checkouts/BlueSocket/Package.swift"; sourceTree = "<group>"; };
@@ -756,12 +801,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				BEF8143624DD6D400077B2F8 /* NIOConcurrencyHelpers.framework in Frameworks */,
+				BEF8143724DD6D400077B2F8 /* NIOFoundationCompat.framework in Frameworks */,
+				BEF8143824DD6D400077B2F8 /* NIOTLS.framework in Frameworks */,
+				BEF8143924DD6D400077B2F8 /* CLinuxHelpers.framework in Frameworks */,
+				BEF8143A24DD6D410077B2F8 /* Logging.framework in Frameworks */,
+				BEF8143B24DD6D410077B2F8 /* CNIOAtomics.framework in Frameworks */,
+				BEF8143C24DD6D410077B2F8 /* KituraWebSocket.framework in Frameworks */,
+				BEF8143D24DD6D410077B2F8 /* LoggerAPI.framework in Frameworks */,
+				BEF8143E24DD6D410077B2F8 /* NIOWebSocket.framework in Frameworks */,
+				BEF8143F24DD6D410077B2F8 /* SSLService.framework in Frameworks */,
+				BEF8144024DD6D410077B2F8 /* CNIOHTTPParser.framework in Frameworks */,
+				BEF8144124DD6D410077B2F8 /* NIOExtras.framework in Frameworks */,
+				BEF8144224DD6D410077B2F8 /* CNIOSHA1.framework in Frameworks */,
+				BEF8144324DD6D410077B2F8 /* CNIOBoringSSL.framework in Frameworks */,
+				BEF8144424DD6D410077B2F8 /* KituraNet.framework in Frameworks */,
+				BEF8144524DD6D410077B2F8 /* NIO.framework in Frameworks */,
+				BEF8144624DD6D410077B2F8 /* NIOSSL.framework in Frameworks */,
+				BEF8144724DD6D410077B2F8 /* CNIODarwin.framework in Frameworks */,
+				BEF8144824DD6D410077B2F8 /* CNIOBoringSSLShims.framework in Frameworks */,
+				BEF8144924DD6D410077B2F8 /* CNIOLinux.framework in Frameworks */,
+				BEF8144A24DD6D410077B2F8 /* Socket.framework in Frameworks */,
+				BEF8144B24DD6D410077B2F8 /* NIOHTTP1.framework in Frameworks */,
+				BEF8141F24DD6D3F0077B2F8 /* KituraWebSocketClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEF8141E24DD6D3F0077B2F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF8142324DD6D3F0077B2F8 /* CLinuxHelpers.framework */,
+				BEF8142524DD6D3F0077B2F8 /* CNIOAtomics.framework */,
+				BEF8142D24DD6D400077B2F8 /* CNIOBoringSSL.framework */,
+				BEF8143224DD6D400077B2F8 /* CNIOBoringSSLShims.framework */,
+				BEF8143124DD6D400077B2F8 /* CNIODarwin.framework */,
+				BEF8142A24DD6D400077B2F8 /* CNIOHTTPParser.framework */,
+				BEF8143324DD6D400077B2F8 /* CNIOLinux.framework */,
+				BEF8142C24DD6D400077B2F8 /* CNIOSHA1.framework */,
+				BEF8142E24DD6D400077B2F8 /* KituraNet.framework */,
+				BEF8142624DD6D3F0077B2F8 /* KituraWebSocket.framework */,
+				BEF8142724DD6D3F0077B2F8 /* LoggerAPI.framework */,
+				BEF8142424DD6D3F0077B2F8 /* Logging.framework */,
+				BEF8142F24DD6D400077B2F8 /* NIO.framework */,
+				BEF8142024DD6D3F0077B2F8 /* NIOConcurrencyHelpers.framework */,
+				BEF8142B24DD6D400077B2F8 /* NIOExtras.framework */,
+				BEF8142124DD6D3F0077B2F8 /* NIOFoundationCompat.framework */,
+				BEF8143524DD6D400077B2F8 /* NIOHTTP1.framework */,
+				BEF8143024DD6D400077B2F8 /* NIOSSL.framework */,
+				BEF8142224DD6D3F0077B2F8 /* NIOTLS.framework */,
+				BEF8142824DD6D400077B2F8 /* NIOWebSocket.framework */,
+				BEF8143424DD6D400077B2F8 /* Socket.framework */,
+				BEF8142924DD6D400077B2F8 /* SSLService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* TestWebSocketClient */ = {
 			isa = PBXGroup;
 			children = (
@@ -1819,6 +1916,7 @@
 				OBJ_873 /* CLinuxHelpers */,
 				OBJ_874 /* LICENSE */,
 				OBJ_875 /* README.md */,
+				BEF8141E24DD6D3F0077B2F8 /* Frameworks */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -2584,6 +2682,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Build/Products/Debug",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2624,6 +2723,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Build/Products/Debug",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
