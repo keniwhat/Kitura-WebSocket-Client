@@ -1,4 +1,0 @@
-module CLinuxHelpers {
-    umbrella "/Users/ken/Projects/atmosphere/AMP/Kitura-WebSocket-Client/.build/checkouts/Kitura-NIO/Sources/CLinuxHelpers/include"
-    export *
-}
