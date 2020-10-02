@@ -32,7 +32,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/IBM-Swift/Kitura-WebSocket-NIO", .branch("master")),
         .package(url: "https://github.com/IBM-Swift/Kitura-NIO.git", from: "2.4.0"),
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.8.0"),
+        .package(url: "https://github.com/apple/swift-nio.git", .exact("2.22.0")),
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.0.0"),
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.3.1"),
         .package(url: "https://github.com/IBM-Swift/Kitura-WebSocket-Compression.git", from: "0.1.0"),
