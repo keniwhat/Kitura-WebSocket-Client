@@ -1,6 +1,5 @@
 .build
 build
 .vagrant
-Package.resolved
 *.pkg
 *.DS_Store
