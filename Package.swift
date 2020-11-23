@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 /*
@@ -27,16 +27,19 @@ let package = Package(
             name: "KituraWebSocketClient",
             targets: ["KituraWebSocketClient"]),
     ],
+    platforms: [
+       .macOS(.v10_15)
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/Kitura-WebSocket-NIO", .branch("master")),
-        .package(url: "https://github.com/IBM-Swift/Kitura-NIO.git", from: "2.4.0"),
+        .package(url: "https://github.com/Kitura/Kitura-WebSocket-NIO", .branch("master")),
+        .package(url: "https://github.com/Kitura/Kitura-NIO.git", from: "2.4.0"),
         .package(url: "https://github.com/apple/swift-nio.git", .exact("2.22.0")),
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.0.0"),
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.3.1"),
-        .package(url: "https://github.com/IBM-Swift/Kitura-WebSocket-Compression.git", from: "0.1.0"),
-        .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", .branch("1.9.0"))
+        .package(url: "https://github.com/Kitura/Kitura-WebSocket-Compression.git", from: "0.1.0"),
+        .package(url: "https://github.com/Kitura/LoggerAPI.git", .branch("1.9.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
