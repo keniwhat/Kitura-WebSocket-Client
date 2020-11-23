@@ -6,40 +6,58 @@
         "repositoryURL": "https://github.com/Kitura/BlueCryptor.git",
         "state": {
           "branch": null,
-          "revision": "12d2bf3ec7207ec3cd004b9582f69ef5fae1da3b",
-          "version": "1.0.32"
+          "revision": "ee5880e031da4c609f372cf7472476ab51d5dd19",
+          "version": "1.0.200"
         }
       },
       {
         "package": "Socket",
-        "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
+        "repositoryURL": "https://github.com/Kitura/BlueSocket.git",
         "state": {
           "branch": null,
-          "revision": "c46a3d41f5b2401d18bcb46d0101cdc5cd13e307",
-          "version": "1.0.52"
+          "revision": "c9894fd117457f1d006575fbfb2fdfd6f79eac03",
+          "version": "1.0.200"
         }
       },
       {
         "package": "SSLService",
-        "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
+        "repositoryURL": "https://github.com/Kitura/BlueSSLService.git",
         "state": {
           "branch": null,
-          "revision": "ab2c2aa2fe574969f391c80ee87746be431dee0e",
-          "version": "1.0.52"
+          "revision": "ae5889d2a8b068d2d3ab91ec73aa8f557c03cd8a",
+          "version": "1.0.200"
+        }
+      },
+      {
+        "package": "Kitura-NIO",
+        "repositoryURL": "https://github.com/Kitura/Kitura-NIO.git",
+        "state": {
+          "branch": null,
+          "revision": "5a56ea7b85d2a816d7f4cec341d8f5d4f087219e",
+          "version": "2.4.200"
+        }
+      },
+      {
+        "package": "WebSocketCompression",
+        "repositoryURL": "https://github.com/Kitura/Kitura-WebSocket-Compression.git",
+        "state": {
+          "branch": null,
+          "revision": "65c73eddd8763624f7fd1c94e5b99263058786fd",
+          "version": "0.1.200"
         }
       },
       {
         "package": "KituraWebSocket",
-        "repositoryURL": "https://github.com/IBM-Swift/Kitura-WebSocket-NIO",
+        "repositoryURL": "https://github.com/Kitura/Kitura-WebSocket-NIO",
         "state": {
           "branch": "master",
-          "revision": "dcf441eb28f74e62264c94021f54f130c94ae310",
+          "revision": "9864e3fb162c8b0f7e2a4fd5ce7389d82b9bd3c0",
           "version": null
         }
       },
       {
         "package": "LoggerAPI",
-        "repositoryURL": "https://github.com/IBM-Swift/LoggerAPI.git",
+        "repositoryURL": "https://github.com/Kitura/LoggerAPI.git",
         "state": {
           "branch": "1.9.0",
           "revision": "3357dd9526cdf9436fa63bb792b669e6efdc43da",
@@ -78,8 +96,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
         "state": {
           "branch": null,
-          "revision": "cc0e80dbccf8c89c1f49c3a11c5929575035076c",
-          "version": "2.9.2"
+          "revision": "eb102ad32add8638410e37a69bc815ea11379813",
+          "version": "2.10.0"
         }
       }
     ]
