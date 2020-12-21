@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/Kitura/Kitura-WebSocket-NIO",
         "state": {
           "branch": "master",
-          "revision": "9864e3fb162c8b0f7e2a4fd5ce7389d82b9bd3c0",
+          "revision": "df9e1748c12e66b3c303412649a045d9706c70b9",
           "version": null
         }
       },
@@ -96,8 +96,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
         "state": {
           "branch": null,
-          "revision": "eb102ad32add8638410e37a69bc815ea11379813",
-          "version": "2.10.0"
+          "revision": "62bf5083df970e67c886210fa5b857eacf044b7c",
+          "version": "2.10.2"
         }
       }
     ]
